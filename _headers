@@ -1,0 +1,10 @@
+# Cloudflare Pages — Security Headers
+# Regel: <pad>   <Header-Naam>: <waarde>
+# /* geldt voor alle pagina's
+
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=()
+  X-XSS-Protection: 1; mode=block
