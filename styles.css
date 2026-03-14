@@ -571,7 +571,7 @@ img { max-width: 100%; height: auto; display: block; }
 .galerij-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 220px 220px;
+  grid-template-rows: 220px 220px 220px;
   gap: 1rem;
   margin-bottom: 1.75rem;
 }
@@ -598,6 +598,10 @@ img { max-width: 100%; height: auto; display: block; }
 
 .foto-tall {
   grid-row: span 2;
+}
+
+.foto-wide {
+  grid-column: span 2;
 }
 
 .foto-inner {
