@@ -50,10 +50,13 @@
     /* ── Logo ── */
     .logo-img {
       width: 100%;
-      max-width: 480px;
-      height: auto;
+      max-width: 560px;
       display: block;
       margin-bottom: 2.5rem;
+      /* Verberg de onderste honingtekst door alleen de bovenste 53% te tonen */
+      aspect-ratio: 1935 / 430;
+      object-fit: cover;
+      object-position: top center;
     }
 
     /* ── Divider ── */
